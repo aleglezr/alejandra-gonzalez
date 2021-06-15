@@ -1,5 +1,3 @@
-
-
 $(document).ready(function () {
 // particles background
 particlesJS.load('particles-js', 'assets/particles.json', function () {
@@ -54,15 +52,6 @@ scrollTop: $($(this).attr("href")).offset().top
 
 });
 
-
-
-
-
-
-
-
-
-// type effect source from: https://codepen.io/bradtraversy/pen/jeNjwP
 class TypeWriter {
   constructor(txtElement, words, wait = 3000) {
     this.txtElement = txtElement;
@@ -116,7 +105,6 @@ class TypeWriter {
     setTimeout(() => this.type(), typeSpeed);
   }
 }
-
 
 // Init On DOM Load
 document.addEventListener('DOMContentLoaded', init);
